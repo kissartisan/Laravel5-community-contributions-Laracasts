@@ -1,0 +1,12 @@
+body {
+  background-color: #CFDEEA; }
+
+.list-group-item > .label {
+  margin-right: 1em; }
+
+.CommunityLinkForm {
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=app.css.map */

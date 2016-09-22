@@ -1,2 +1,15 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+body {
+    background-color: #CFDEEA;
+}
+
+.list-group-item > .label {
+    margin-right: 1em;
+}
+
+.CommunityLinkForm {
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 10px;
+}

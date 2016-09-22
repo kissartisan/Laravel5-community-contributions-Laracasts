@@ -11,6 +11,11 @@ var elixir = require('laravel-elixir');
  |
  */
 
+// "maatwebsite/excel": "~2.0",
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.sass('app.scss')
+       .version([
+            'public/css/app.css'
+        ])
+       .browserSync({ proxy: 'localhost:8000', online: false, });
 });
